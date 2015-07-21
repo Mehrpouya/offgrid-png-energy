@@ -1,0 +1,144 @@
+<!doctype><html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Odyssey.js Slides</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/x-icon" href="http://cartodb.github.io/odyssey.js/sandbox/favicon.png">
+  <link rel="icon" type="image/png" href="http://cartodb.github.io/odyssey.js/sandbox/favicon.png">
+
+  <link rel="stylesheet" href="http://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/themes/css/cartodb.css">
+  <link rel="stylesheet" href="stylesheets/offgrid.css">
+  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script src="http://cartodb.github.io/odyssey.js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+    <div id="days">
+            <ul id="daysList">
+                <li ><a href="index.html">Introduction</a></li>
+                <li ><a href="waikaisor.html">Waikaisor Nights</a></li>
+                <li ><a href="kerosene.html">Kerosene</a></li>
+                <li ><a href="light-circuits.html">Light Circuits</a></li>
+                <li ><a href="batteries.html">Batteries</a></li>
+                <li class="selected"><a href="bush-trade.html">Bush Trade</a></li>
+                <li ><a href="gifted-and-given.html">Gifted and Given</a></li>
+                <li ><a href="fragile-things.html">Fragile Things</a></li>
+            </ul>
+        </div>
+  <div id="map" style="width: 100%; height: 100%;"></div>
+
+  <div id="slides_container" style="display:block;">
+    <div id="dots"></div>
+
+    <div id="slides"></div>
+
+    <ul id="navButtons">
+      <li><a class="prev"></a></li>
+      <li><a class="next"></a></li>
+    </ul>
+  </div>
+
+  <div id="credits">
+    <span class="title" id="title">Papua New Guinea</span>
+    <span class="author"><strong id="author">Off the Grid</strong> <a href="http://cartodb.github.io/odyssey.js/">Odyssey.js</a><span>
+  </span></span></div>
+
+  <script src="http://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/cartodb.js"></script>
+  <script src="http://cartodb.github.io/odyssey.js/dist/odyssey.js" charset="UTF-8"></script>
+  <script src="js/main.js"></script>
+
+  
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20934186-21', 'cartodb.github.io');
+    ga('send', 'pageview');
+  </script>
+
+  <script type="text/javascript" src="http://fast.fonts.net/jsapi/3af16084-ba56-49ca-b37d-0b49b59e1927.js"></script>
+
+<!---baseurl: "http://a.tiles.mapbox.com/v3/jamiejcross.mi0i2gik/{z}/{x}/{y}.png"-->
+<!---vizjson: "https://edinb.cartodb.com/u/offthegrid/api/v2/viz/f4d83cca-b620-11e4-b906-0e9d821ea90d/viz.json"-->
+```
+<script type="text/template" id="md_template">```
+-baseurl: "http://a.tiles.mapbox.com/v3/jamiejcross.mi7nj31l/{z}/{x}/{y}.png"
+```
+ 
+
+#Bush trade
+```
+L.marker([40.7348, -73.9970]).actions.addRemove(S.map)
+- center: [-5.4125, -214.5067]
+- zoom: 18
+```
+
+![Light in Hands](https://dl.dropboxusercontent.com/u/90728/Odyssey%20Energy/Mark%20Doyle%20Images/Trade%20Stores%20and%20Black%20Markets.jpg)
+
+
+Virtually nobody buys and sells kerosene in the Begasin Hills anymore. But the trade in batteries is thriving.
+
+Every time somebody from Waikaisor travels to town they walk back carrying something to sell on what people call bush markets and black markets.
+
+
+#Bush markets
+```
+- center: [-5.3863, -214.5557]
+- zoom: 18
+```
+
+![Light in Hands](https://dl.dropboxusercontent.com/u/90728/Untitled%202/Untitled%202.001.jpg)
+
+Early on Wednesday mornings a line of people from Waikaisor walk to the nearest bush market, 40 minutes downstream on the side of the Wiapan river. 
+
+Sellers lay out plastic sheets and pile up their wares: home grown vegetables and fruits sit stacked alongside the trade store goods that people bought at a wholesale price in town and have carried here to sell for a small mark up. 
+
+The mark up price on one A sized battery that costs 1 Kina in town can vary considerably, from 1.20k to 1.50k per battery. These varying costs reflect the costs of transport and labour involved in moving things from the town to the village. The costs of carriage can be high. 
+
+#Black markets
+```
+- center: [-5.3937, -214.5498]
+- zoom: 18
+```
+
+
+
+![Light in Hands](https://dl.dropboxusercontent.com/u/90728/Odyssey%20Energy/Photos/black%20market%20trade%20store.jpg
+)
+
+People also buy and sell goods from the porch of their homes. While this kind of petty commerce takes place beyond the eyes of the state it is tightly regulated. 
+
+For the past decade the the people of Waikaisor have operated and enforced what they call 'a law', intended to prevent open competition between households. 
+
+The 15 brothers and their families have made an agreement not to compete with each other by selling the same trade store goods at the same time. 
+
+One August, for example, Peter and Susie were also selling batteries from the door of their home. Across the hamlet's volleyball pitch Benok and Mary were selling packets of rice. Benok knew that if Peter's household had a box of batteries to sell everybody else had to wait until they could sell them. 
+
+'We can't have fights about the market.' Benok explained, 'If someone else in the hamlet is selling something I can't sell it, I must wait. Only when that person has sold all their batteries, only then can I sell them. If one brother is selling batteries another brother cannot. We decided as a family that we cannot sell the same thing at the same time. This way if someone from outside comes here to buy something, all kinds of different kinds of things are available, they won't find everyone selling the same thing.'
+
+
+#Bartering batteries
+```
+- center: [-5.3939, -214.5520]
+- zoom: 18
+```
+
+
+![Light in Hands](https://dl.dropboxusercontent.com/u/90728/Odyssey%20Energy/Layer%209.jpg)
+
+Sales of batteries in a bush market are carefully framed cash transactions. The buyer pays in the state currency, Kina. 
+
+But sales from the porch of a house - to members of the extended family or clan - do not always or necessarily involve cash. 
+
+Batteries can be acquired in an exchange for a quantity of garden produce - like beetlenut or unprocessed/red bean cocoa - that both parties recognise as having an equivalent cash value. 
+
+Or batteries can be acquired on credit by using a string of ripe bettelnut or cacao that is ready for sale as collateral, and promising to go and sell it at the next weekly market. 
+
+Credit here is a product of trust and proximity. 'I know if people here have buai ready in their garden,' people say, 'but I don't know about people from elsewhere, I won't know if they are lying' 
+
+        </script>
+</body></html>
